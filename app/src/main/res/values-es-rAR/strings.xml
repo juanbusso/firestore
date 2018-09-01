@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Friendly Eats</string>
+    <string name="option_exit">Salir</string>
+    <string name="option_retry">Reintentar</string>
+    <string name="value_any_category">Todos</string>
+    <string name="value_any_city">Todos</string>
+    <string name="value_any_price">Todos</string>
+    <string name="label_category">Categoria</string>
+    <string name="label_city">Ciudad</string>
+    <string name="label_price">Precio</string>
+    <string name="label_sort_by">Ordenar por</string>
+    <string name="all_restaurants">Todos</string>
+    <string name="header_filters">Filtro</string>
+    <string name="search">Buscar</string>
+    <string name="text_favorites">Favoritos</string>
+</resources>

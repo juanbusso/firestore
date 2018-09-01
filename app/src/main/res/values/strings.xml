@@ -1,0 +1,153 @@
+<resources>
+
+    <string name="app_name">Stock</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to news topic</string>
+
+    <string name="text_Productos">Productos</string>
+    <string name="text_Favorites" translatable="false">Notificaciones</string>
+    <string name="text_Store" translatable="false">Local</string>
+
+    <string name="value_any_category">Todas las Tiendas</string>
+    <string name="value_any_city">Anywhere</string>
+    <string name="value_any_price">Any price</string>
+
+    <string name="price_1" translatable="false">$</string>
+    <string name="price_2" translatable="false">$$</string>
+    <string name="price_3" translatable="false">$$$</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_city">City</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_products">All Products</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating" translatable="false">Sort by Rating</string>
+    <string name="sort_by_popularity" translatable="false">Sort by Popularity</string>
+    <string name="sort_by_price" translatable="false">Sort by Price</string>
+
+    <string name="sorted_by_rating" translatable="false">sorted by rating</string>
+    <string name="sorted_by_price" translatable="false">sorted by price</string>
+    <string name="sorted_by_popularity" translatable="false">sorted by popularity</string>
+
+    <string name="add_random_items" translatable="false">Add Random Items</string>
+    <string name="sign_out" translatable="false">Sign Out</string>
+    <string name="divider_bullet" translatable="false">•</string>
+    <string name="apply" translatable="false">Apply</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="message_no_results" translatable="false">Oops, couldn\'t find any results\nthat matched your filter</string>
+    <string name="message_no_reviews" translatable="false">Be the first to leave a review!</string>
+    <string name="hint_review" translatable="false">How was your experience?</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="filter_add_review" translatable="false">Add review</string>
+
+    <string name="title_sign_in_error" translatable="false">Sign In Error</string>
+    <string name="message_no_network" translatable="false">No network connection.</string>
+    <string name="message_unknown" translatable="false">Unknown error.</string>
+    <string name="option_retry">Retry</string>
+    <string name="option_exit">Exit</string>
+    <string name="productos">Productos</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Vivet</item>
+        <item>Tienda Veggie</item>
+        <item>Sudamerik</item>
+    </string-array>
+    ite
+
+    <!-- 50 most populous cities in the US -->
+    <string-array name="cities">
+        <item>@string/value_any_city</item>
+
+        <item>Albuquerque</item>
+        <item>Arlington</item>
+        <item>Atlanta</item>
+        <item>Austin</item>
+        <item>Baltimore</item>
+        <item>Boston</item>
+        <item>Charlotte</item>
+        <item>Chicago</item>
+        <item>Cleveland</item>
+        <item>Colorado Springs</item>
+        <item>Columbus</item>
+        <item>Dallas</item>
+        <item>Denver</item>
+        <item>Detroit</item>
+        <item>El Paso</item>
+        <item>Fort Worth</item>
+        <item>Fresno</item>
+        <item>Houston</item>
+        <item>Indianapolis</item>
+        <item>Jacksonville</item>
+        <item>Kansas City</item>
+        <item>Las Vegas</item>
+        <item>Long Beach</item>
+        <item>Los Angeles</item>
+        <item>Louisville</item>
+        <item>Memphis</item>
+        <item>Mesa</item>
+        <item>Miami</item>
+        <item>Milwaukee</item>
+        <item>Nashville</item>
+        <item>New York</item>
+        <item>Oakland</item>
+        <item>Oklahoma</item>
+        <item>Omaha</item>
+        <item>Philadelphia</item>
+        <item>Phoenix</item>
+        <item>Portland</item>
+        <item>Raleigh</item>
+        <item>Sacramento</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>San Jose</item>
+        <item>Tucson</item>
+        <item>Tulsa</item>
+        <item>Virginia Beach</item>
+        <item>Washington</item>
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort products -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
